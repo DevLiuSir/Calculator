@@ -69,59 +69,6 @@ class CircleButton: UIButton {
             }
 */
             btn.setBackgroundImage(UIImage.drawPictureWithImage(with: equalHighlightedColor), for: .highlighted)
-
-            
-            
-            
-            
-            
-//            guard let b = viewWithTag(140) else { return }
-//            guard let b2 = viewWithTag(150) else { return }
-//            guard let b3 = viewWithTag(160) else { return }
-//            guard let b4 = viewWithTag(170) else { return }
-//
-//            let b = viewWithTag(140) as! UIButton
-//            let b2 = viewWithTag(150) as! UIButton
-//            let b3 = viewWithTag(160) as! UIButton
-//            let b4 = viewWithTag(170) as! UIButton
-//
-//            currentBtn.append(b)
-//            currentBtn.append(b2)
-//            currentBtn.append(b3)
-//            currentBtn.append(b4)
-            
-            
-//            currentBtn.append(btn)
-
-//            print(currentBtn.count)
-            
-//            print(".....\(currentBtn[0])")
-            
-
-            
-        
-//            for i in 0...3 {
-////                guard let b = self.viewWithTag(i * 10 + 130) else { return }
-//
-//                currentBtn.append(btn)
-//
-//
-//                var cur = currentBtn[i]
-//
-//                if cur != btn {
-////                    cur.setBackgroundImage(UIImage.drawPictureWithImage(with: .white), for: .selected)
-////                    cur.setTitleColor(OperatorNormalColor, for: .selected)
-//
-//                    print("不相等")
-//                }else {
-////                    cur.setTitleColor(.white, for: .normal)
-////                    cur.setBackgroundImage(UIImage.drawPictureWithImage(with: OperatorNormalColor), for: .normal)
-//
-//                    btn.setBackgroundImage(UIImage.drawPictureWithImage(with: .white), for: .selected)
-//                    btn.setTitleColor(OperatorNormalColor, for: .selected)
-//                    print("相等")
-//                }
-
             
         case 180:
             btn.setBackgroundImage(UIImage.drawPictureWithImage(with: equalHighlightedColor), for: .highlighted)
